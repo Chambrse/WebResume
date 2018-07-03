@@ -532,7 +532,7 @@ img#site-title {
 }
 .icon:before,.icon:after {
 	font-family:'fontawesome';
-	speak:none;
+	speak: none;
 	font-style:normal;
 	font-weight:normal;
 	font-variant:normal;
