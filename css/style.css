@@ -366,7 +366,7 @@ img#site-title {
 	padding:40px 40px 20px 40px;
 }
 .restitem {
-	margin-bottom:40px;
+	margin-bottom:15px;
 }
 .restitem p {
 	margin-bottom:0px;
@@ -665,7 +665,7 @@ span.nav-close:before {
 }
 
 .contact-info {
-	margin-top:40px;
+	margin-top:20px;
 }
 
 .contact-info p {
@@ -798,7 +798,7 @@ textarea.contact {
 	color:#ffffff;
 	line-height:45px;
 	margin:0 4px 0px;
-	width:45px !important;
+	width:45px;
 	height:45px !important;
 		-webkit-border-radius:3px;
 	border-radius:3px;
@@ -819,6 +819,53 @@ textarea.contact {
 	color:#fff;
 }
 .footer p {
+	color:#fff;
+	font-size:13px;
+	line-height:24px;
+	font-weight:300;
+	text-align:center;
+	text-transform:uppercase;
+}
+.headfoot .container {
+	padding:60px 0 20px;
+}
+.headfoot ul {
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align:center;
+	list-style-type:none;
+	padding-left:0;
+	padding-right: 30px;
+}
+.headfoot ul li {
+	display:inline-block;
+	text-align:center;
+	background:#92DD03;
+	color:#ffffff;
+	line-height:45px;
+	margin:0 4px 0px;
+	width:45px;
+	height:45px !important;
+		-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.headfoot ul li:hover {
+	background:#2a2a2a;
+}
+.headfoot ul li:hover	a {
+	color:#fff;
+}
+.headfoot ul li a {
+	color:#fff;
+	width:42px !important;
+	height:42px !important;
+}
+.headfoot ul li a i {
+	line-height:45px;
+	color:#fff;
+}
+.headfoot p {
 	color:#fff;
 	font-size:13px;
 	line-height:24px;
