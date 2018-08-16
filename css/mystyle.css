@@ -1,0 +1,13 @@
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.portfolio-item img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
