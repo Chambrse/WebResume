@@ -6,6 +6,10 @@
     margin-top: 15px;
 }
 
+.teststuff{
+    display:flex;
+}
+
 .portfolio-item > img {
     flex-shrink: 0;
     min-width: 100%;
