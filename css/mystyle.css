@@ -3,12 +3,14 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .portfolio-item > img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+    border: 3px solid #000;
 }
 
 .itemCover {
@@ -22,11 +24,13 @@
 
 .itemCover:hover {
     opacity: 1;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .itemLabel {
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     left: 10%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -41,4 +45,20 @@
 .skillsDisplay {
     position: absolute;
     left: 25px;
+}
+
+.skillsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.skillBox {
+    padding: 0px 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.portfolioButton {
+    margin: 0px 10px;
 }
